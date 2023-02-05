@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8080
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "cleaner/main.py"]
