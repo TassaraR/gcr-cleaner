@@ -10,9 +10,9 @@ RUN apt-get update -y \
 
 WORKDIR /usr/src/app
 
-COPY . .
-
 RUN pip install -r requirements.txt
+
+COPY . .
 
 EXPOSE 8080
 
