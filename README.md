@@ -3,6 +3,7 @@
 Removes dangling and untagged images from Google's Container Registry serivce.
 
 This code is intented to work on mounted on an HTTP Cloud Run instance and its expected to run scheduled on Cloud Scheduler
+
 ---
 
 Dockerize the cleaner app and upload it onto Container Registry
