@@ -90,7 +90,7 @@ def delete_images(images: List[str], chunksize: int = 20) -> None:
     """
 
     gcloud_del_cmd = (
-        lambda img: f"gcloud container images delte {img} --quiet"
+        lambda img: f"gcloud container images delete {img} --quiet"
     )  # noqa: E731
 
     images_chunks = [
